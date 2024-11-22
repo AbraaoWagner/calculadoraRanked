@@ -10,17 +10,17 @@ function balanceWinLoss(vitory, defeat) {
 balanceWinLoss(vitory, defeat)
 
 if (vitory<10) {
-    rank = "Ferro"
+    rank = "Iron"
 } else if(vitory>11&&vitory<=50) {
-    rank = "Prata"
+    rank = "Silver"
 }else if(vitory>51&&vitory<=80) {
-    rank = "Ouro"
+    rank = "Gold"
 }else if(vitory>81&&vitory<=90) {
-    rank = "Diamante"
+    rank = "Diamond"
 }else if(vitory>91&&vitory<=100) {
-    rank = "Lendário"
+    rank = "Legendary"
 }else{
-    rank = "Imortal"
+    rank = "Immortal"
 }
 
 console.log("O Herói tem um saldo de "+ result+ " está no nível de " + rank )
